@@ -8,6 +8,10 @@ A tribute page is a simple web page dedicated to honoring and paying tribute to 
 
 This tribute page was created as a demonstration of HTML and CSS skills. It includes basic styling to make the page visually appealing and easy to read.
 
+## Home Page ScreenShot
+
+![image](https://github.com/JeremiahRanen7/Tribute-Page-UI/assets/141173239/e502b155-7a86-4a33-a918-a6832f24d52e)
+
 ## Usage
 
 To view the tribute page, simply open the `index.html` file in a web browser. The page should display with all text and images visible.
