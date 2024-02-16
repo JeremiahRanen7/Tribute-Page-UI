@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Lobster+Two&family=Mooli&family=Poppins:wght@200&family=Prompt&family=Roboto+Serif:opsz,wght@8..144,600&family=Rosario:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    padding: 16px 32px;
+}
+
+.logo{
+    padding: 16px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.navbar ul li{
+    font-size: 1rem;
+    font-weight:bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px white;
+}
+
+/*.navbar img{
+    height: 80px;
+}*/

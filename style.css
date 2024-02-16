@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Lobster+Two&family=Montserrat&family=Mooli&family=Outfit&family=Poppins&family=Prompt&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,600&family=Rosario:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli';
+}
+
+.navbar{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    padding: 16px 32px;
+}
+
+.logo{
+    padding: 16px;
+    cursor: pointer;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.navbar ul li{
+    font-size: 1rem;
+    font-weight:bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px white;
+}
+
+.navbar img{
+    height: 80px;
+}
+
+/*.home{
+    height: 100vh;
+    background: url(49F192B300000578-0-image-a-38_1520422214831.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}*/
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(49F192B300000578-0-image-a-38_1520422214831.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+  }
+
+
+#home{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Poppins";
+}
+
+.first{
+    background: rgb(0, 0, 0, -5);
+    height: 120vh;
+  }
+
+.primary-heading{
+    font-size: 40px;
+    margin-top: 265px;
+    margin-left: 70px;
+}
+
+.share{
+    margin-left: 650px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.main{
+    margin-top: 60px;
+    width: 800px;
+    margin: 80px auto;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+.ronaldo{
+    width: 100%;
+}
+
+.sub-main{
+    margin-top: 60px;
+    width: 950px;
+    margin: 80px auto;
+}
+
+.headings{
+    font-size: 50px;
+    text-align: center;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: none;
+    margin-top: 2px;
+    position: relative;
+    cursor: pointer;
+    transition: .3s;
+}
+/*
+.box:hover{
+    transform: scale(1.3);
+}*/
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2px;
+    width: 950px;
+    margin: 10px auto;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+}
+
+.box h3{
+    position: absolute;
+    bottom: 125px;
+    text-align: center;
+    left: 75px;
+    color: white;
+}
+
+.horizontal{
+    margin-top: 40px;
+}
+/*
+.horizontal hr{
+    border: 2px solid black;
+    width: 900px;
+}*/
+
+.horizontal p{
+    margin: 40px auto;
+    text-align: center;
+}
+
+.end{
+    width: 950px;
+    margin: 80px auto;
+}
+
+.companies{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+    flex-wrap: wrap;
+    width: 950px;
+    margin: 10px auto;
+}
+
+.co{
+    width: 300px;
+    height: 300px;
+    border: none;
+    margin-top: 2px;
+    cursor: pointer;
+    background-color: black;
+}
+
+.co img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    height: 250px;
+    background-color: black;
+}
+
+.last{
+    width: 400px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: white;
+    margin-bottom: 250px;
+    padding: 32px;
+    cursor: pointer;
+}
+
+.last h3{
+    font: bolder;
+    text-align: center;
+}
+
+.last a{
+    text-decoration: none;
+}
